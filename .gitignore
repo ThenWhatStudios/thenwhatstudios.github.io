@@ -1,0 +1,7 @@
+*.tmp
+*.bat
+*.exe
+*.dll
+*.txt
+*.php
+*.db
