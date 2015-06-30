@@ -1,0 +1,363 @@
+/***************************************
+ * Then What Studios Theme v2.0 @media
+ * Copyright © 2015 Then What Studios
+ ***************************************/
+ 
+ @charset "utf-8";
+ 
+@media screen and (min-width: 320px){
+.header{
+		width: 100%;
+		height: 75px;
+		margin: 0;
+		padding: 0;
+		background: #333;
+		color: #fff;
+	}
+	
+	.header-logo{
+		display: none;
+	}
+	
+	.header-company{
+		display: block;
+		width: 316px;
+		height: 65px;
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.header-company-title{
+		width: 316px;
+		margin: 0 auto;
+		font-size: 36px;
+	}
+	
+	.header-company-tagline{
+		width: 283px;
+		margin: 0 auto;
+		font-size: 18px;
+	}
+	
+	.menu{
+		display: block;
+		position: absolute;
+		top: 75px;
+		left: 0;
+	}
+	
+	.menu.fixed{
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 100%;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.menu .menu-mobile{
+		display: block;
+	}
+	
+	.menu.fixed .menu-mobile{
+		display: none;
+	}
+	
+	.menu-nav{
+		display: none;
+	}
+	
+	.menu.fixed .menu-nav{
+		display: block;
+		position: static;
+		top: 0;
+		width: 90%;
+		height: 80%;
+		margin: 0;
+		padding: 10% 5%;
+		float: none;
+		overflow-y: scroll;
+	}
+	
+	.menu-nav ul,
+	.menu-nav ul li,
+	.menu-nav ul ul,
+	.menu-nav ul ul li{
+		display: block;
+	}
+	
+	.menu-nav ul li{
+		height: auto;
+	}
+	
+	.menu-nav ul ul{
+		position: static;
+		top: 0;
+		background: #333;
+	}
+	
+	.menu-nav a:hover,
+	.menu-nav ul li a:hover,
+	.menu-nav ul ul li a:hover{
+		background: inherit;
+	}
+	
+	.content{
+		min-height: 400px;
+	}
+	
+	.footer-logo{
+		left: 10px;
+	}
+	
+	.featured,
+	.sidebar,
+	.footer-nav,
+	.footer-social{
+		display: none;
+	}
+}
+ 
+@media screen and (min-width: 1195px){
+	.header{
+		width: 90%;
+		height: 300px;
+		margin: 0;
+		padding: 0 5%;
+		background: #333;
+		color: #fff;
+	}
+	
+	.header-logo{
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.header-company{
+		display: block;
+		width: 632px;
+		height: 131px;
+		margin: 0 auto;
+		float: none;
+	}
+	
+	.menu{
+		position: static;
+		top: 0;
+		left: 0;
+	}
+	
+	.menu .menu-mobile{
+		display: none;
+	}
+	
+	.menu.fixed{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 90%;
+		height: 50px;
+		padding: 0 5%;
+		overflow-y: visible;
+		overflow-x: visible;
+	}
+	
+	.menu-nav{
+		display: inline-block;
+	}
+	
+	.menu.fixed .menu-nav{
+		display: inline-block;
+		position: relative;
+		top: -50px !important;
+		width: 489px;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		float: right;
+		overflow-y: visible;
+	}
+	
+	.menu-nav ul{
+		display: inline-block;
+	}
+	
+	.menu-nav ul:after{
+		content: "";
+		clear: both;
+		display: block;
+	}
+	
+	.menu-nav ul li{
+		display: inline-block;
+	}
+	
+	.menu-nav ul li:hover > ul{
+		display: block;
+	}
+	
+	.menu-nav ul li a:hover{
+		background: #4e4c4c;
+	}
+	
+	.menu-nav ul li:hover{
+		background: #4e4c4c;
+	}
+	
+	.menu-nav ul ul{
+		position: absolute;
+		top: auto;
+		background: #4e4c4c;
+	}
+	
+	.menu-nav ul ul{
+		display: none;
+	}
+	
+	.menu-nav ul ul li{
+		display: block;
+	}
+	
+	.menu-nav ul ul li a:hover{
+		background: #646262;
+	}
+	
+	.menu-nav ul ul:hover < ul li a{
+		background: #4e4c4c;
+	}
+	
+	.featured,
+	.sidebar{
+		display: block;
+	}
+	
+	.footer-social,
+	.footer-nav{
+		display: inline-block;
+	}
+	
+	.footer-logo{
+		left: 50%;
+	}
+}
+
+@media screen and (min-width: 1300px){
+	.header{
+		width: 90%;
+		height: 225px;
+		margin: 0;
+		padding: 0 5%;
+		background: #333;
+		color: #fff;
+	}
+	
+	.header-logo{
+		display: inline-block;
+		width: 350px;
+		height: 170px;
+		margin: 27.5px;
+		float: left;
+		background: url('/asset/icons/logo.png') center no-repeat;
+	}
+	
+	.header-company{
+		display: inline-block;
+		width: 632px;
+		margin: 50px 50px;
+		float: left;
+	}
+	
+	.header-company-title{
+		width: 632px;
+		margin: 0;
+		font-family: 'Righteous', cursive;
+		font-weight: 400;
+		font-size: 72px;
+	}
+	
+	.header-company-tagline{
+		width: 632px;
+		margin: 0;
+		font-size: 36px;
+	}
+	
+	.menu{
+		position: static;
+		top: 0;
+		left: 0;
+	}
+	
+	.menu .menu-mobile{
+		display: none;
+	}
+	
+	.menu.fixed{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 90%;
+		height: 50px;
+		padding: 0 5%;
+		overflow-y: visible;
+		overflow-x: visible;
+	}
+	
+	.menu-nav{
+		display: inline-block;
+	}
+	
+	.menu.fixed .menu-nav{
+		display: inline-block;
+		position: relative;
+		top: -50px !important;
+		width: 489px;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		float: right;
+		overflow-y: visible;
+	}
+	
+	.menu-nav ul{
+		display: inline-block;
+	}
+	
+	.menu-nav ul:after{
+		content: "";
+		clear: both;
+		display: block;
+	}
+	
+	.menu-nav ul li{
+		display: inline-block;
+	}
+	
+	.menu-nav ul li:hover > ul{
+		display: block;
+	}
+	
+	.menu-nav ul li a:hover{
+		background: #4e4c4c;
+	}
+	
+	.menu-nav ul ul{
+		position: absolute;
+		top: auto;
+		background: #4e4c4c;
+	}
+	
+	.menu-nav ul ul{
+		display: none;
+	}
+	
+	.menu-nav ul ul li{
+		display: block;
+	}
+	
+	.menu-nav ul ul li a:hover{
+		background: #646262;
+	}
+}

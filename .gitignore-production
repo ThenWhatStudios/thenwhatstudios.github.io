@@ -1,0 +1,11 @@
+*.tmp
+*.bat
+*.exe
+*.dll
+*.txt
+*.php
+*.db
+
+templates
+
+v.1.0*

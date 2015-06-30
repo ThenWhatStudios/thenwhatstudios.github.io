@@ -1,0 +1,25 @@
+/* Ghifari160's Studio Solution
+ * v1.0 Body Layout Stylesheet
+ * Copyright (c) 2014 */
+.wrap{
+	position: absolute;
+	top: 250px;
+	left: 2%;
+	right: 2%;
+	width: 96%;
+	min-height: 100%;
+	transform: translateY(2%);
+}
+
+.content{
+	margin: 0 0 0 0;
+	padding: 10px 10px 10px 10px;
+}
+
+.footer{
+	clear: both;
+	width: 100%;
+	padding: 10px 10px;
+	text-align: center;
+	border-top: 1px solid #666;
+}
