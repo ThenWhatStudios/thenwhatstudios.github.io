@@ -2,6 +2,10 @@
 *.bat
 *.exe
 *.dll
-*.txt
-*.php
+#*.txt
+#*.php
 *.db
+
+#templates
+
+v.1.0*
