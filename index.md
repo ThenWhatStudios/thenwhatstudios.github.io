@@ -8,3 +8,6 @@ GeekSextet Media is the multimedia branch of Then What Studios. Established arou
 
 ### Prime ###
 Prime is short for Then What Studios Prime. Prime is the primary, and currently the only, video game studio in Then What Studios. Prime's leadership differs than other video game studios, every staff of Prime owns the studio equally.
+
+# Contact #
+For press inquiries, email to press@thenwhatstudios.com. Send any other inquires to business@thenwhatstudios.com
